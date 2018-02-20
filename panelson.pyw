@@ -1,4 +1,4 @@
-from tkinter import *
+rom tkinter import *
 
 giris = Tk()
 giris.title("Welcome")
@@ -30,8 +30,8 @@ def nextt():
     password2.grid(column=2,row=2)
 
     def kontrol():
-        if username2.get()=="Yousuf":
-            if password2.get()=="852046":
+        if username2.get()=="Your Username":
+            if password2.get()=="Your Password":
                 true = Tk()
                 true.title("Controlpanel")
                 true.geometry("230x50+350+150")
